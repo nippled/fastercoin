@@ -1,0 +1,34 @@
+src/*.exe
+src/fastercoin
+src/fastercoind
+src/test_fastercoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.fastercoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+fastercoin-qt
+FasterCoin-Qt.app
+
+# Unit-tests
+Makefile.test
+fastercoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb-*/Makefile
